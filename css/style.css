@@ -5,10 +5,11 @@
     font-family: Lato, sans-serif;
     user-select: none;
     transition: all .3s linear;
+    box-sizing: border-box;
 }
 
 .wrapper {
-    padding: 67px;
+    padding-top: 67px;
     height: 100vh;
     background-color: rgba(0, 0, 0, .7);
     text-shadow: 0 0 .2rem #18B876;
