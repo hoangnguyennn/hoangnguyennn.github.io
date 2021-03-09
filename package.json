@@ -1,0 +1,23 @@
+{
+  "name": "hoangnguyennn.github.io",
+  "version": "1.0.0",
+  "description": "Tinh linh",
+  "scripts": {
+    "lint": "eslint",
+    "fix": "eslint --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hoangnguyennn/hoangnguyennn.github.io.git"
+  },
+  "keywords": [],
+  "author": "hoangnguyenn",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hoangnguyennn/hoangnguyennn.github.io/issues"
+  },
+  "homepage": "https://github.com/hoangnguyennn/hoangnguyennn.github.io#readme",
+  "devDependencies": {
+    "eslint": "^7.21.0"
+  }
+}
