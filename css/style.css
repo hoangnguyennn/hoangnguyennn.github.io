@@ -20,6 +20,8 @@
 }
 
 .wrapper::before {
+  background-image: url('../bg.jpg');
+  background-attachment: fixed;
   content: '';
   position: absolute;
   top: 0;
@@ -32,8 +34,9 @@
 }
 
 .content {
+  padding: 10%;
   color: #ddd;
-  transform: translateY(25%);
+  transform: translateY(10%);
 }
 
 .title {
