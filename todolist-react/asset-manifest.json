@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.f18c4ce7.chunk.css",
-    "main.js": "/static/js/main.edee6899.chunk.js",
-    "main.js.map": "/static/js/main.edee6899.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.f1a9db4b.js",
-    "runtime-main.js.map": "/static/js/runtime-main.f1a9db4b.js.map",
-    "static/css/2.4be38407.chunk.css": "/static/css/2.4be38407.chunk.css",
-    "static/js/2.1df3e668.chunk.js": "/static/js/2.1df3e668.chunk.js",
-    "static/js/2.1df3e668.chunk.js.map": "/static/js/2.1df3e668.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/2.4be38407.chunk.css.map": "/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.f18c4ce7.chunk.css.map": "/static/css/main.f18c4ce7.chunk.css.map",
-    "static/js/2.1df3e668.chunk.js.LICENSE.txt": "/static/js/2.1df3e668.chunk.js.LICENSE.txt",
-    "static/media/check-all.62cd43fe.svg": "/static/media/check-all.62cd43fe.svg",
-    "static/media/check.4ad3b5f0.svg": "/static/media/check.4ad3b5f0.svg",
-    "static/media/checked.a7e9a3da.svg": "/static/media/checked.a7e9a3da.svg",
-    "static/media/close.6076079d.svg": "/static/media/close.6076079d.svg"
+    "main.css": "./static/css/main.f18c4ce7.chunk.css",
+    "main.js": "./static/js/main.e5637043.chunk.js",
+    "main.js.map": "./static/js/main.e5637043.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.dfdbcf0a.js",
+    "runtime-main.js.map": "./static/js/runtime-main.dfdbcf0a.js.map",
+    "static/css/2.4be38407.chunk.css": "./static/css/2.4be38407.chunk.css",
+    "static/js/2.1df3e668.chunk.js": "./static/js/2.1df3e668.chunk.js",
+    "static/js/2.1df3e668.chunk.js.map": "./static/js/2.1df3e668.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/2.4be38407.chunk.css.map": "./static/css/2.4be38407.chunk.css.map",
+    "static/css/main.f18c4ce7.chunk.css.map": "./static/css/main.f18c4ce7.chunk.css.map",
+    "static/js/2.1df3e668.chunk.js.LICENSE.txt": "./static/js/2.1df3e668.chunk.js.LICENSE.txt",
+    "static/media/check-all.62cd43fe.svg": "./static/media/check-all.62cd43fe.svg",
+    "static/media/check.4ad3b5f0.svg": "./static/media/check.4ad3b5f0.svg",
+    "static/media/checked.a7e9a3da.svg": "./static/media/checked.a7e9a3da.svg",
+    "static/media/close.6076079d.svg": "./static/media/close.6076079d.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.f1a9db4b.js",
+    "static/js/runtime-main.dfdbcf0a.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.1df3e668.chunk.js",
     "static/css/main.f18c4ce7.chunk.css",
-    "static/js/main.edee6899.chunk.js"
+    "static/js/main.e5637043.chunk.js"
   ]
 }
