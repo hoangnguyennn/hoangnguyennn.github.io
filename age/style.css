@@ -1,58 +1,228 @@
-* {
+*,
+*::before,
+*::after {
   margin: 0;
-  padding: 0;
-  font-family: 'Lato', sans-serif;
-  text-shadow: 0 0 5px #000;
   box-sizing: border-box;
 }
 
-body,
-.item > * {
+body {
+  height: 100vh;
+  background: #fd594d;
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-body {
-  background: #c6070c;
-  color: #ffe392;
-}
-
-.container {
-  width: 200px;
-  height: 200px;
-  position: relative;
-}
-
-.item {
-  position: absolute;
-  font-size: 30px;
-}
-
-.item > * {
-  position: relative;
-  top: -130px;
-  width: 200px;
-  height: 200px;
-  border: 5px solid #ffe392;
-  border-radius: 50%;
-}
-
-.item > * {
   flex-direction: column;
 }
 
-.item:nth-child(3) {
-  transform: rotate(120deg);
-}
-.item:nth-child(3) > * {
-  transform: rotate(-120deg);
+.box-1,
+.box-2 {
+  display: flex;
 }
 
-.item:nth-child(2) {
-  transform: rotate(240deg);
+.box-2 {
+  margin-top: 40px;
 }
 
-.item:nth-child(2) > * {
-  transform: rotate(-240deg);
+.number {
+  width: 100px;
+  height: 180px;
+
+  position: relative;
+}
+
+.number + .number {
+  margin-left: 20px;
+}
+
+.divider {
+  margin-left: 20px;
+  margin-right: 20px;
+  width: 20px;
+  height: 180px;
+  position: relative;
+}
+
+.divider::before {
+  content: '';
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.divider::after {
+  content: '';
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+}
+
+.bar {
+  overflow: hidden;
+}
+
+.bar::before,
+.bar::after {
+  content: '';
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.bar::before {
+  background-color: rgba(255, 255, 255, 0.05);
+}
+
+.bar::after {
+  display: none;
+  background-color: #fff;
+}
+
+.top {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.middle {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.bottom {
+  width: 80px;
+  height: 20px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.left-1 {
+  width: 20px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+
+.left-2 {
+  width: 20px;
+  height: 80px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+}
+
+.right-1 {
+  width: 20px;
+  height: 80px;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+
+.right-2 {
+  width: 20px;
+  height: 80px;
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+}
+
+.zero .top::after,
+.zero .left-1::after,
+.zero .left-2::after,
+.zero .right-1::after,
+.zero .right-2::after,
+.zero .bottom::after {
+  display: block;
+}
+
+.one .right-1::after,
+.one .right-2::after {
+  display: block;
+}
+
+.two .top::after,
+.two .right-1::after,
+.two .middle::after,
+.two .left-2::after,
+.two .bottom::after {
+  display: block;
+}
+
+.three .top::after,
+.three .right-1::after,
+.three .middle::after,
+.three .right-2::after,
+.three .bottom::after {
+  display: block;
+}
+
+.four .left-1::after,
+.four .middle::after,
+.four .right-1::after,
+.four .right-2::after {
+  display: block;
+}
+
+.five .top::after,
+.five .left-1::after,
+.five .middle::after,
+.five .right-2::after,
+.five .bottom::after {
+  display: block;
+}
+
+.six .top::after,
+.six .left-1::after,
+.six .middle::after,
+.six .left-2::after,
+.six .right-2::after,
+.six .bottom::after {
+  display: block;
+}
+
+.seven .top::after,
+.seven .right-1::after,
+.seven .right-2::after {
+  display: block;
+}
+
+.eight .top::after,
+.eight .left-1::after,
+.eight .left-2::after,
+.eight .middle::after,
+.eight .right-1::after,
+.eight .right-2::after,
+.eight .bottom::after {
+  display: block;
+}
+
+.nine .top::after,
+.nine .left-1::after,
+.nine .middle::after,
+.nine .right-1::after,
+.nine .right-2::after,
+.nine .bottom::after {
+  display: block;
 }
