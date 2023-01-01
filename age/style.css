@@ -226,3 +226,153 @@ body {
 .nine .bottom::after {
   display: block;
 }
+
+@media (max-width: 767.98px) {
+  .number {
+    width: 50px;
+    height: 90px;
+
+    position: relative;
+  }
+
+  .number + .number {
+    margin-left: 10px;
+  }
+
+  .bar::before,
+  .bar::after {
+    width: 27px;
+    height: 27px;
+  }
+
+  .divider {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 10px;
+    height: 90px;
+  }
+
+  .divider::before {
+    width: 10px;
+    height: 10px;
+  }
+
+  .divider::after {
+    width: 10px;
+    height: 10px;
+  }
+
+  .top {
+    width: 40px;
+    height: 10px;
+  }
+
+  .middle {
+    width: 40px;
+    height: 10px;
+  }
+
+  .bottom {
+    width: 40px;
+    height: 10px;
+  }
+
+  .left-1 {
+    width: 10px;
+    height: 40px;
+    top: 5px;
+  }
+
+  .left-2 {
+    width: 10px;
+    height: 40px;
+    bottom: 5px;
+  }
+
+  .right-1 {
+    width: 10px;
+    height: 40px;
+    top: 5px;
+  }
+
+  .right-2 {
+    width: 10px;
+    height: 40px;
+    bottom: 5px;
+  }
+}
+
+@media (max-width: 479.98px) {
+  .number {
+    width: 25px;
+    height: 45px;
+
+    position: relative;
+  }
+
+  .number + .number {
+    margin-left: 5px;
+  }
+
+  .bar::before,
+  .bar::after {
+    width: 13.5px;
+    height: 13.5px;
+  }
+
+  .divider {
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 5px;
+    height: 45px;
+  }
+
+  .divider::before {
+    width: 5px;
+    height: 5px;
+  }
+
+  .divider::after {
+    width: 5px;
+    height: 5px;
+  }
+
+  .top {
+    width: 20px;
+    height: 5px;
+  }
+
+  .middle {
+    width: 20px;
+    height: 5px;
+  }
+
+  .bottom {
+    width: 20px;
+    height: 5px;
+  }
+
+  .left-1 {
+    width: 5px;
+    height: 20px;
+    top: 2.5px;
+  }
+
+  .left-2 {
+    width: 5px;
+    height: 20px;
+    bottom: 2.5px;
+  }
+
+  .right-1 {
+    width: 5px;
+    height: 20px;
+    top: 2.5px;
+  }
+
+  .right-2 {
+    width: 5px;
+    height: 20px;
+    bottom: 2.5px;
+  }
+}
