@@ -35,8 +35,6 @@ function renderTime() {
   const minutes = now.diff(DOB.add(hours, 'hour'), 'minute');
   const seconds = now.diff(DOB.add(minutes, 'minute'), 'second');
 
-  console.log({ years, months, days, hours, minutes, seconds });
-
   const [year1, year2] = to2Digits(years).split('');
   const [month1, month2] = to2Digits(months).split('');
   const [day1, day2] = to2Digits(days).split('');
