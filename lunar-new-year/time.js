@@ -1,4 +1,4 @@
-const TET = new Date('February 01, 2022 00:00:00 GMT+07:00').toUTCString();
+const TET = new Date('January 29, 2025 00:00:00 GMT+07:00').toUTCString();
 const TET_MOMENT = moment(TET);
 
 setInterval(() => {
